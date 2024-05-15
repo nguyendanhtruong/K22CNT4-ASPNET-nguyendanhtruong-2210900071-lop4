@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|d:\\k22cnt4-aspnet\\ndt.lesson04\\ndt.lesson04\\views\\ndtcustomerscaffding\\ndtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\views\\ndtcustomerscaffding\\ndtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\controllers\\ndtcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\controllers\\ndtcustomerscaffdingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\views\\ndtcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\views\\ndtcustomerscaffding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\views\\ndtcustomerscaffding\\ndtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\views\\ndtcustomerscaffding\\ndtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\views\\ndtcustomer\\ndtcustomerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\views\\ndtcustomer\\ndtcustomerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\models\\ndtcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\models\\ndtcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\models\\ndtcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\models\\ndtcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|D:\\K22CNT4-ASPNET\\Ndt.lesson04\\ndt.lesson04\\views\\ndtcustomer\\ndtlistcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23E16023-EB9B-4C33-A2BB-30025DFBB2D8}|Ndt.lesson04\\Ndt.lesson04.csproj|solutionrelative:ndt.lesson04\\views\\ndtcustomer\\ndtlistcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NdtEdit.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtEdit.cshtml",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtEdit.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtEdit.cshtml",
+              "RelativeToolTip": "Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtEdit.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T11:07:58.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NdtCreate.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtCreate.cshtml",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtCreate.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtCreate.cshtml",
+              "RelativeToolTip": "Ndt.lesson04\\Views\\NdtCustomerscaffding\\NdtCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T10:41:09.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Ndt.lesson04\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:17:26.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NdtCustomerscaffdingController.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Controllers\\NdtCustomerscaffdingController.cs",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Controllers\\NdtCustomerscaffdingController.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Controllers\\NdtCustomerscaffdingController.cs",
+              "RelativeToolTip": "Ndt.lesson04\\Controllers\\NdtCustomerscaffdingController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwEYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:16:52.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomerscaffding\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Views\\NdtCustomerscaffding\\Index.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomerscaffding\\Index.cshtml",
+              "RelativeToolTip": "Ndt.lesson04\\Views\\NdtCustomerscaffding\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T10:29:29.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Ndt.lesson04\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBgAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T08:28:24.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NdtCustomer.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Models\\NdtCustomer.cs",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Models\\NdtCustomer.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Models\\NdtCustomer.cs",
+              "RelativeToolTip": "Ndt.lesson04\\Models\\NdtCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:11:58.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NdtCustomerController.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Models\\NdtCustomerController.cs",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Models\\NdtCustomerController.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Models\\NdtCustomerController.cs",
+              "RelativeToolTip": "Ndt.lesson04\\Models\\NdtCustomerController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwEYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:12:00.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NdtCustomerDetail.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomer\\NdtCustomerDetail.cshtml",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Views\\NdtCustomer\\NdtCustomerDetail.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomer\\NdtCustomerDetail.cshtml",
+              "RelativeToolTip": "Ndt.lesson04\\Views\\NdtCustomer\\NdtCustomerDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T08:17:04.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ndtlistcustomer.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomer\\Ndtlistcustomer.cshtml",
+              "RelativeDocumentMoniker": "Ndt.lesson04\\Views\\NdtCustomer\\Ndtlistcustomer.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Ndt.lesson04\\Ndt.lesson04\\Views\\NdtCustomer\\Ndtlistcustomer.cshtml",
+              "RelativeToolTip": "Ndt.lesson04\\Views\\NdtCustomer\\Ndtlistcustomer.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T08:55:26.376Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NdtCustomerscaffdingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -179,10 +180,14 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\NdtCustomer\NdtCustomerDetail.cshtml" />
+    <Content Include="Views\NdtCustomer\Ndtlistcustomer.cshtml" />
+    <Content Include="Views\NdtCustomerscaffding\Index.cshtml" />
+    <Content Include="Views\NdtCustomerscaffding\NdtCreate.cshtml" />
+    <Content Include="Views\NdtCustomerscaffding\NdtEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\NdtCustomer\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
