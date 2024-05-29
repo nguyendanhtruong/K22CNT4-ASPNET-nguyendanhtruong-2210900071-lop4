@@ -18,39 +18,39 @@
         <div class="form-group">
             @Html.Label("mã thành viên", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.Id, new { Required = "Required", Type = "number" })
+                @Html.EditorFor(moded =>moded.Id)
             </div>
         </div>
 
         <div class="form-group">
             @Html.Label("Tên Đăng Nhập ", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.Username, new { Required = "Required" })
+                @Html.EditorFor(model => model.Username)
             </div>
         </div>
 
         <div class="form-group">
             @Html.Label("Họ Và tên  ", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.FullName, new { Required = "Required" })
+                @Html.EditorFor(model => model.FullName)
             </div>
         </div>
         <div class="form-group">
             @Html.Label("Mật Khẩu  ", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.Password, new { Required = "Required" })
+                @Html.PasswordFor(model => model.Password)
             </div>
         </div>
         <div class="form-group">
             @Html.Label("Tuổi  ", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.Age, new { Required = "Required", type = "number", min = "18", max = "60" })
+                @Html.EditorFor(model => model.Age)
             </div>
         </div>
         <div class="form-group">
             @Html.Label("Email ", new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.Email, new { Required = "Required", Type = "email" })
+                @Html.EditorFor(model => model.Email)
             </div>
         </div>
         <div class="form-group">
