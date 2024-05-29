@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|c:\\users\\nitro 5\\source\\repos\\ndtlesson6\\ndtlesson6\\models\\ndtsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|solutionrelative:ndtlesson6\\models\\ndtsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\ndtlesson6\\views\\ndtsong\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|solutionrelative:ndtlesson6\\views\\ndtsong\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\ndtlesson6\\views\\ndtsong\\ndtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|solutionrelative:ndtlesson6\\views\\ndtsong\\ndtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\ndtlesson6\\controllers\\ndtsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|solutionrelative:ndtlesson6\\controllers\\ndtsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\ndtlesson6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|solutionrelative:ndtlesson6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\ndtlesson6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6438AD4-C35C-4B1E-B69A-9D31EE31CBF0}|Ndtlesson6\\Ndtlesson6.csproj|solutionrelative:ndtlesson6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NdtCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\NdtSong\\NdtCreate.cshtml",
+              "RelativeDocumentMoniker": "Ndtlesson6\\Views\\NdtSong\\NdtCreate.cshtml",
+              "ToolTip": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\NdtSong\\NdtCreate.cshtml",
+              "RelativeToolTip": "Ndtlesson6\\Views\\NdtSong\\NdtCreate.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T04:04:46.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NdtIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\NdtSong\\NdtIndex.cshtml",
+              "RelativeDocumentMoniker": "Ndtlesson6\\Views\\NdtSong\\NdtIndex.cshtml",
+              "ToolTip": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\NdtSong\\NdtIndex.cshtml",
+              "RelativeToolTip": "Ndtlesson6\\Views\\NdtSong\\NdtIndex.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:44:15.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NdtSongController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Controllers\\NdtSongController.cs",
+              "RelativeDocumentMoniker": "Ndtlesson6\\Controllers\\NdtSongController.cs",
+              "ToolTip": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Controllers\\NdtSongController.cs",
+              "RelativeToolTip": "Ndtlesson6\\Controllers\\NdtSongController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:23:43.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NdtSong.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Models\\NdtSong.cs",
+              "RelativeDocumentMoniker": "Ndtlesson6\\Models\\NdtSong.cs",
+              "ToolTip": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Models\\NdtSong.cs",
+              "RelativeToolTip": "Ndtlesson6\\Models\\NdtSong.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:22:25.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Ndtlesson6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Ndtlesson6\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:20:08.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ndtlesson6\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nitro 5\\source\\repos\\Ndtlesson6\\Ndtlesson6\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ndtlesson6\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:19:35.915Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

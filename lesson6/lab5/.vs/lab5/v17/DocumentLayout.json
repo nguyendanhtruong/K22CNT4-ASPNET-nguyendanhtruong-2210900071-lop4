@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K22CNT4-ASPNET\\lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|d:\\k22cnt4-aspnet\\lab5\\lab5\\views\\member\\createtwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\views\\member\\createtwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|d:\\k22cnt4-aspnet\\lab5\\lab5\\views\\member\\createthree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\views\\member\\createthree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|D:\\K22CNT4-ASPNET\\lab5\\lab5\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|D:\\K22CNT4-ASPNET\\lab5\\lab5\\views\\member\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\views\\member\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|D:\\K22CNT4-ASPNET\\lab5\\lab5\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|d:\\k22cnt4-aspnet\\lab5\\lab5\\views\\member\\createone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\views\\member\\createone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|D:\\K22CNT4-ASPNET\\lab5\\lab5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9870E81D-6098-4C41-9343-A02A47B2EA6F}|lab5\\lab5.csproj|solutionrelative:lab5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateThree.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\CreateThree.cshtml",
+              "RelativeDocumentMoniker": "lab5\\Views\\Member\\CreateThree.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\CreateThree.cshtml",
+              "RelativeToolTip": "lab5\\Views\\Member\\CreateThree.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T06:32:32.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTwo.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\CreateTwo.cshtml",
+              "RelativeDocumentMoniker": "lab5\\Views\\Member\\CreateTwo.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\CreateTwo.cshtml",
+              "RelativeToolTip": "lab5\\Views\\Member\\CreateTwo.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T06:27:27.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOne.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\CreateOne.cshtml",
+              "RelativeDocumentMoniker": "lab5\\Views\\Member\\CreateOne.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\CreateOne.cshtml",
+              "RelativeToolTip": "lab5\\Views\\Member\\CreateOne.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T05:40:58.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\Details.cshtml",
+              "RelativeDocumentMoniker": "lab5\\Views\\Member\\Details.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Member\\Details.cshtml",
+              "RelativeToolTip": "lab5\\Views\\Member\\Details.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T05:29:28.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "lab5\\Controllers\\MemberController.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "lab5\\Controllers\\MemberController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwFcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:57:46.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T04:46:34.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "lab5\\Models\\Member.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\lab5\\lab5\\Models\\Member.cs",
+              "RelativeToolTip": "lab5\\Models\\Member.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwBwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:38:35.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
