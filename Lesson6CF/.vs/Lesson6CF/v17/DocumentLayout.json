@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K22CNT4-ASPNET\\Lesson6CF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|D:\\K22CNT4-ASPNET\\Lesson6CF\\lesson6cf\\controllers\\ndtcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\controllers\\ndtcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|D:\\K22CNT4-ASPNET\\Lesson6CF\\lesson6cf\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|d:\\k22cnt4-aspnet\\lesson6cf\\lesson6cf\\views\\ndtcategory\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\views\\ndtcategory\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|D:\\K22CNT4-ASPNET\\Lesson6CF\\lesson6cf\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|D:\\K22CNT4-ASPNET\\Lesson6CF\\lesson6cf\\models\\ndtbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\models\\ndtbookstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|d:\\k22cnt4-aspnet\\lesson6cf\\lesson6cf\\controllers\\ndtbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\controllers\\ndtbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|D:\\K22CNT4-ASPNET\\Lesson6CF\\lesson6cf\\models\\ndtbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\models\\ndtbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|D:\\K22CNT4-ASPNET\\Lesson6CF\\lesson6cf\\models\\ndtcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D00B92D-63AF-48CD-B9CC-71685810AD80}|Lesson6CF\\Lesson6CF.csproj|solutionrelative:lesson6cf\\models\\ndtcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NdtBooksController.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Controllers\\NdtBooksController.cs",
+              "RelativeDocumentMoniker": "Lesson6CF\\Controllers\\NdtBooksController.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Controllers\\NdtBooksController.cs",
+              "RelativeToolTip": "Lesson6CF\\Controllers\\NdtBooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:18:27.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lesson6CF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lesson6CF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T08:48:37.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NdtIndex.cshtml",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Views\\NdtCategory\\NdtIndex.cshtml",
+              "RelativeDocumentMoniker": "Lesson6CF\\Views\\NdtCategory\\NdtIndex.cshtml",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Views\\NdtCategory\\NdtIndex.cshtml",
+              "RelativeToolTip": "Lesson6CF\\Views\\NdtCategory\\NdtIndex.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T08:46:29.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NdtCategoryController.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Controllers\\NdtCategoryController.cs",
+              "RelativeDocumentMoniker": "Lesson6CF\\Controllers\\NdtCategoryController.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Controllers\\NdtCategoryController.cs",
+              "RelativeToolTip": "Lesson6CF\\Controllers\\NdtCategoryController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:34:20.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Web.config",
+              "RelativeDocumentMoniker": "Lesson6CF\\Web.config",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Web.config",
+              "RelativeToolTip": "Lesson6CF\\Web.config",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-05T08:20:51.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NdtBookStore.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Models\\NdtBookStore.cs",
+              "RelativeDocumentMoniker": "Lesson6CF\\Models\\NdtBookStore.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Models\\NdtBookStore.cs",
+              "RelativeToolTip": "Lesson6CF\\Models\\NdtBookStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:58:49.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NdtBook.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Models\\NdtBook.cs",
+              "RelativeDocumentMoniker": "Lesson6CF\\Models\\NdtBook.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Models\\NdtBook.cs",
+              "RelativeToolTip": "Lesson6CF\\Models\\NdtBook.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:42:35.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NdtCategory.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Models\\NdtCategory.cs",
+              "RelativeDocumentMoniker": "Lesson6CF\\Models\\NdtCategory.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\Lesson6CF\\Lesson6CF\\Models\\NdtCategory.cs",
+              "RelativeToolTip": "Lesson6CF\\Models\\NdtCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:38:16.051Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

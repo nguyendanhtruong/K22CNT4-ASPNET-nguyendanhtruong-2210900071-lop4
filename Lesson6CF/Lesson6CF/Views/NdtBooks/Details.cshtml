@@ -1,0 +1,74 @@
+﻿@model Lesson6CF.Models.NdtBook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NdtBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtPulisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtPulisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtPicture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NDTCategoryId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NDTCategoryId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NdtId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
