@@ -1,0 +1,40 @@
+﻿@model NdtLesson07Db.Models.NdtKhoa
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NdtKhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtTenKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtTrangThai)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "NdtIndex")
+        </div>
+    }
+</div>

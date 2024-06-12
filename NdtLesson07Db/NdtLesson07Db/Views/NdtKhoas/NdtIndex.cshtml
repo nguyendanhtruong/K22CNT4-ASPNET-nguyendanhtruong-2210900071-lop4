@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NdtLesson07Db.Models.NdtKhoa>
+
+@{
+    ViewBag.Title = "NdtIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("NdtCreate New", "NdtCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtTrangThai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtTrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("NdtEdit", "NdtEdit", new { id=item.NdtMaKH.Trim() }) |
+            @Html.ActionLink("NdtDetails", "NdtDetails", new { id=item.NdtMaKH.Trim() }) |
+            @Html.ActionLink("NdtDelete", "NdtDelete", new { id=item.NdtMaKH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

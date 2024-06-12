@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Ndt_Baithigiuaky.Models.NdtCustomer>
+
+@{
+    ViewBag.Title = "NdtIndex";
+}
+
+<h2>NdtIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model._2210900071_CusId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_Balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item._2210900071_CusId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ndt_FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ndt_Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ndt_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ndt_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ndt_Balance)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

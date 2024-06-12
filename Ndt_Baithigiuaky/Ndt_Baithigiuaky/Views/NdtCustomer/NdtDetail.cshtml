@@ -1,0 +1,66 @@
+﻿@model Ndt_Baithigiuaky.Models.NdtCustomer
+
+@{
+    ViewBag.Title = "Ndt:Thông tin chi tiết ";
+}
+
+<h2>Thông tin chi tiết</h2>
+
+<div>
+    <h4>NdtCustomer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model._2210900071_CusId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model._2210900071_CusId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ndt_FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ndt_FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ndt_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ndt_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ndt_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ndt_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ndt_Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ndt_Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ndt_Balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ndt_Balance)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

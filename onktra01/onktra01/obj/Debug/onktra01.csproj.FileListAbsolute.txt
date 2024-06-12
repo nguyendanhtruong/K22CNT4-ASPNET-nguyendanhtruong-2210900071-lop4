@@ -1,0 +1,11 @@
+D:\K22CNT4-ASPNET\onktra01\onktra01\bin\Debug\onktra01.exe.config
+D:\K22CNT4-ASPNET\onktra01\onktra01\bin\Debug\onktra01.exe
+D:\K22CNT4-ASPNET\onktra01\onktra01\bin\Debug\onktra01.pdb
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.csproj.AssemblyReference.cache
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.Form1.resources
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.Properties.Resources.resources
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.sinhvien.resources
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.csproj.GenerateResource.cache
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.csproj.CoreCompileInputs.cache
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.exe
+D:\K22CNT4-ASPNET\onktra01\onktra01\obj\Debug\onktra01.pdb

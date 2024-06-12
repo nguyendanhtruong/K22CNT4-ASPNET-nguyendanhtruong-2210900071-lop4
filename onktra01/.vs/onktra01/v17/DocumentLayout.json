@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K22CNT4-ASPNET\\onktra01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|d:\\k22cnt4-aspnet\\onktra01\\onktra01\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|solutionrelative:onktra01\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|solutionrelative:onktra01\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|solutionrelative:onktra01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627B6805-99CF-4431-BDD1-957047F860D9}|onktra01\\onktra01.csproj|solutionrelative:onktra01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sinhvien.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\sinhvien.cs",
+              "RelativeDocumentMoniker": "onktra01\\sinhvien.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\sinhvien.cs",
+              "RelativeToolTip": "onktra01\\sinhvien.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwE4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:54:08.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sinhvien.cs [Design]",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\sinhvien.cs",
+              "RelativeDocumentMoniker": "onktra01\\sinhvien.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\sinhvien.cs [Design]",
+              "RelativeToolTip": "onktra01\\sinhvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:19:39.289Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\Form1.cs",
+              "RelativeDocumentMoniker": "onktra01\\Form1.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\Form1.cs",
+              "RelativeToolTip": "onktra01\\Form1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:12:08.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\Form1.cs",
+              "RelativeDocumentMoniker": "onktra01\\Form1.cs",
+              "ToolTip": "D:\\K22CNT4-ASPNET\\onktra01\\onktra01\\Form1.cs [Design]",
+              "RelativeToolTip": "onktra01\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:11:15.159Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

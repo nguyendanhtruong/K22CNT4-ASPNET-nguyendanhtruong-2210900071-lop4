@@ -1,0 +1,34 @@
+﻿@model NdtLesson07Db.Models.NdtKhoa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NdtKhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtTenKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtTenKH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtTrangThai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "NdtEdit", new { id = Model.NdtMaKH.Trim() }) |
+    @Html.ActionLink("Back to List", "NdtIndex")
+</p>
