@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NdtK22CNT4Lesson10.Models.NdtAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NdtLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtUseName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtUseName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NdtID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NdtID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NdtID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,67 @@
+﻿@model NdtK22CNT4Lesson10.Models.NdtAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NdtLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NdtAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtUseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtUseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NdtID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
