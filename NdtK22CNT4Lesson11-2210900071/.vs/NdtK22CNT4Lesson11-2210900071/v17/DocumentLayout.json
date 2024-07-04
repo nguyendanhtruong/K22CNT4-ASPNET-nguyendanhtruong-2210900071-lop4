@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|d:\\k22cnt4-aspnet\\ndtk22cnt4lesson11-2210900071\\ndtk22cnt4lesson11-2210900071\\views\\ndtproducts\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|solutionrelative:ndtk22cnt4lesson11-2210900071\\views\\ndtproducts\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\ndtk22cnt4lesson11-2210900071\\views\\ndtcategories\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|solutionrelative:ndtk22cnt4lesson11-2210900071\\views\\ndtcategories\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|d:\\k22cnt4-aspnet\\ndtk22cnt4lesson11-2210900071\\ndtk22cnt4lesson11-2210900071\\views\\ndtproducts\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|solutionrelative:ndtk22cnt4lesson11-2210900071\\views\\ndtproducts\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD482CE2-CD2B-4248-8863-913B6DB7C0A5}|NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071.csproj|D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\ndtk22cnt4lesson11-2210900071\\views\\ndthome\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -142,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NdtIndex.cshtml",
               "DocumentMoniker": "D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071\\Views\\NdtProducts\\NdtIndex.cshtml",
               "RelativeDocumentMoniker": "NdtK22CNT4Lesson11-2210900071\\Views\\NdtProducts\\NdtIndex.cshtml",
               "ToolTip": "D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071\\Views\\NdtProducts\\NdtIndex.cshtml",
               "RelativeToolTip": "NdtK22CNT4Lesson11-2210900071\\Views\\NdtProducts\\NdtIndex.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAwB4AAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-04T04:33:53.723Z",
               "EditorCaption": ""
@@ -191,15 +191,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NdtIndex.cshtml",
               "DocumentMoniker": "D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071\\Views\\NdtCategories\\NdtIndex.cshtml",
               "RelativeDocumentMoniker": "NdtK22CNT4Lesson11-2210900071\\Views\\NdtCategories\\NdtIndex.cshtml",
               "ToolTip": "D:\\K22CNT4-ASPNET\\NdtK22CNT4Lesson11-2210900071\\NdtK22CNT4Lesson11-2210900071\\Views\\NdtCategories\\NdtIndex.cshtml",
               "RelativeToolTip": "NdtK22CNT4Lesson11-2210900071\\Views\\NdtCategories\\NdtIndex.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-04T03:44:54Z"
+              "WhenOpened": "2024-07-04T03:44:54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
