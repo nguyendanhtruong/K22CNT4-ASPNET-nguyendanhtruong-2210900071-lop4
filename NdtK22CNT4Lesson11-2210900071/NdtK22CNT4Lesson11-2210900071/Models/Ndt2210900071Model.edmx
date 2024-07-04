@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NdtK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NdtCategory">
+          <Key>
+            <PropertyRef Name="NdtID" />
+          </Key>
+          <Property Name="NdtID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NdtCateName" Type="nvarchar" MaxLength="50" />
+          <Property Name="NdtStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="NdtProduct">
+          <Key>
+            <PropertyRef Name="Ndtid2210900071" />
+          </Key>
+          <Property Name="Ndtid2210900071" Type="int" Nullable="false" />
+          <Property Name="NdtProName" Type="nvarchar" MaxLength="50" />
+          <Property Name="NdtQty" Type="int" />
+          <Property Name="NdtPrice" Type="float" />
+          <Property Name="NdtCateId" Type="int" />
+          <Property Name="NdtActive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="NdtK22CNT4Lesson11DbModelStoreContainer">
+          <EntitySet Name="NdtCategory" EntityType="Self.NdtCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NdtProduct" EntityType="Self.NdtProduct" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NdtK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NdtCategory">
+          <Key>
+            <PropertyRef Name="NdtID" />
+          </Key>
+          <Property Name="NdtID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NdtCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NdtStatus" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="NdtProduct">
+          <Key>
+            <PropertyRef Name="Ndtid2210900071" />
+          </Key>
+          <Property Name="Ndtid2210900071" Type="Int32" Nullable="false" />
+          <Property Name="NdtProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NdtQty" Type="Int32" />
+          <Property Name="NdtPrice" Type="Double" />
+          <Property Name="NdtCateId" Type="Int32" />
+          <Property Name="NdtActive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="NdtK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NdtCategories" EntityType="Self.NdtCategory" />
+          <EntitySet Name="NdtProducts" EntityType="Self.NdtProduct" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NdtK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="NdtK22CNT4Lesson11DbEntities">
+          <EntitySetMapping Name="NdtCategories">
+            <EntityTypeMapping TypeName="NdtK22CNT4Lesson11DbModel.NdtCategory">
+              <MappingFragment StoreEntitySet="NdtCategory">
+                <ScalarProperty Name="NdtID" ColumnName="NdtID" />
+                <ScalarProperty Name="NdtCateName" ColumnName="NdtCateName" />
+                <ScalarProperty Name="NdtStatus" ColumnName="NdtStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NdtProducts">
+            <EntityTypeMapping TypeName="NdtK22CNT4Lesson11DbModel.NdtProduct">
+              <MappingFragment StoreEntitySet="NdtProduct">
+                <ScalarProperty Name="Ndtid2210900071" ColumnName="Ndtid2210900071" />
+                <ScalarProperty Name="NdtProName" ColumnName="NdtProName" />
+                <ScalarProperty Name="NdtQty" ColumnName="NdtQty" />
+                <ScalarProperty Name="NdtPrice" ColumnName="NdtPrice" />
+                <ScalarProperty Name="NdtCateId" ColumnName="NdtCateId" />
+                <ScalarProperty Name="NdtActive" ColumnName="NdtActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

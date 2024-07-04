@@ -1,0 +1,35 @@
+﻿@model NdtK22CNT4Lesson11_2210900071.Models.NdtCategory
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Ndt2210900071Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NdtCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtCateName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NdtStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NdtStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NdtID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

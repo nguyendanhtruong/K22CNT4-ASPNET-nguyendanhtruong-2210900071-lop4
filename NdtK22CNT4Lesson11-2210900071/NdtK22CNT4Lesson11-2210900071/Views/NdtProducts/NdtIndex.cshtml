@@ -1,0 +1,76 @@
+﻿@model IEnumerable<NdtK22CNT4Lesson11_2210900071.Models.NdtProduct>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Ndt2210900071Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndtid2210900071)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtCateId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtActive)
+         </th>
+
+        <th> chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ndtid2210900071)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtCateId)
+        </td>
+        <td>
+          @*@Html.DisplayFor(modelItem => item.NdtActive)*@
+
+            @if (item.NdtActive == true)
+            {
+                <span style="color:green">hoạt động</span>
+
+            }
+            else
+            {
+                <span style="color:red">không hoạt động<</span>
+
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Ndtid2210900071 }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Ndtid2210900071 }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Ndtid2210900071 })
+        </td>
+    </tr>
+}
+
+</table>

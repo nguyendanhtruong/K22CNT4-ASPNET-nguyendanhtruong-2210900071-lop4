@@ -1,0 +1,61 @@
+﻿@model IEnumerable<NdtK22CNT4Lesson11_2210900071.Models.NdtCategory>
+
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Ndt2210900071Layout.cshtml";
+}
+
+<h2>Danh mục sản phẩm</h2>
+
+<p>
+   @*@Html.ActionLink("Create New", "Create")*@
+    <a href="/NdtCategories/Create"class="btn btn-primary my-1">thêm mới </a>
+</p>
+<table class="table table-primary>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NdtStatus)
+        </th>
+        <th>chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtCateName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NdtStatus)
+
+            @if (item.NdtStatus == true) 
+            {
+                <span style="color:green">hoạt động</span>
+             
+                }
+                else
+                {
+                <span style ="color:red">không hoạt động<</span>
+                
+                }
+
+            </td>
+
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.NdtID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.NdtID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.NdtID })
+        </td>
+    </tr>
+}
+
+</table>

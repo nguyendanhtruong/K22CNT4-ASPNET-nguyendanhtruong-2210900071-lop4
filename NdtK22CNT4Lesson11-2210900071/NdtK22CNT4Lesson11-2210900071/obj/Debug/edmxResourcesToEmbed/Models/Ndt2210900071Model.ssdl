@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NdtK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NdtCategory">
+    <Key>
+      <PropertyRef Name="NdtID" />
+    </Key>
+    <Property Name="NdtID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NdtCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NdtStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="NdtProduct">
+    <Key>
+      <PropertyRef Name="Ndtid2210900071" />
+    </Key>
+    <Property Name="Ndtid2210900071" Type="int" Nullable="false" />
+    <Property Name="NdtProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NdtQty" Type="int" />
+    <Property Name="NdtPrice" Type="float" />
+    <Property Name="NdtCateId" Type="int" />
+    <Property Name="NdtActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="NdtK22CNT4Lesson11DbModelStoreContainer">
+    <EntitySet Name="NdtCategory" EntityType="Self.NdtCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NdtProduct" EntityType="Self.NdtProduct" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

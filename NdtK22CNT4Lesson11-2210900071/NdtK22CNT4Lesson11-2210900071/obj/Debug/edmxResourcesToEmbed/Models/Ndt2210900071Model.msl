@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NdtK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="NdtK22CNT4Lesson11DbEntities">
+    <EntitySetMapping Name="NdtCategories">
+      <EntityTypeMapping TypeName="NdtK22CNT4Lesson11DbModel.NdtCategory">
+        <MappingFragment StoreEntitySet="NdtCategory">
+          <ScalarProperty Name="NdtID" ColumnName="NdtID" />
+          <ScalarProperty Name="NdtCateName" ColumnName="NdtCateName" />
+          <ScalarProperty Name="NdtStatus" ColumnName="NdtStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NdtProducts">
+      <EntityTypeMapping TypeName="NdtK22CNT4Lesson11DbModel.NdtProduct">
+        <MappingFragment StoreEntitySet="NdtProduct">
+          <ScalarProperty Name="Ndtid2210900071" ColumnName="Ndtid2210900071" />
+          <ScalarProperty Name="NdtProName" ColumnName="NdtProName" />
+          <ScalarProperty Name="NdtQty" ColumnName="NdtQty" />
+          <ScalarProperty Name="NdtPrice" ColumnName="NdtPrice" />
+          <ScalarProperty Name="NdtCateId" ColumnName="NdtCateId" />
+          <ScalarProperty Name="NdtActive" ColumnName="NdtActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
