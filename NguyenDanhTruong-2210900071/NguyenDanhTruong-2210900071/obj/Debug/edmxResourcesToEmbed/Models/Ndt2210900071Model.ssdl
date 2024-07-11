@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NDT_SACH">
+    <Key>
+      <PropertyRef Name="Ndt_MaSach" />
+    </Key>
+    <Property Name="Ndt_MaSach" Type="int" Nullable="false" />
+    <Property Name="Ndt_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ndt_SoTrang" Type="int" />
+    <Property Name="Ndt_NamXB" Type="int" />
+    <Property Name="Ndt_MaTG" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Ndt_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="NDT_TACGIA">
+    <Key>
+      <PropertyRef Name="Ndt_MaTG" />
+    </Key>
+    <Property Name="Ndt_MaTG" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Ndt_TenTacGia" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_NDT_SACH_NDT_TACGIA">
+    <End Role="NDT_TACGIA" Type="Self.NDT_TACGIA" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="NDT_SACH" Type="Self.NDT_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NDT_TACGIA">
+        <PropertyRef Name="Ndt_MaTG" />
+      </Principal>
+      <Dependent Role="NDT_SACH">
+        <PropertyRef Name="Ndt_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="NDT_SACH" EntityType="Self.NDT_SACH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NDT_TACGIA" EntityType="Self.NDT_TACGIA" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_NDT_SACH_NDT_TACGIA" Association="Self.FK_NDT_SACH_NDT_TACGIA">
+      <End Role="NDT_TACGIA" EntitySet="NDT_TACGIA" />
+      <End Role="NDT_SACH" EntitySet="NDT_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

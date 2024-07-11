@@ -1,0 +1,60 @@
+﻿@model IEnumerable<NguyenDanhTruong_2210900071.Models.NDT_SACH>
+
+@{
+    ViewBag.Title = "Sách ";
+    Layout = "~/Views/Shared/_NdtLayout.cshtml";
+}
+
+<h2>Sách</h2>
+
+<p>
+    @* @Html.ActionLink("Create New", "Create")*@
+    <a href="/NDT_SACH/NdtCreate" class="btn btn-primary my-1">thêm mới </a>
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_SoTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_NamXB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_TrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NDT_TACGIA.Ndt_TenTacGia)
+        </th>
+        <th>Chức Năng</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ndt_TenSach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ndt_SoTrang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ndt_NamXB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ndt_TrangThai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NDT_TACGIA.Ndt_TenTacGia)
+            </td>
+            <td>
+                @Html.ActionLink("NdtEdit", "NdtEdit", new { id = item.Ndt_MaSach }) |
+                @Html.ActionLink("NdtDetails", "NdtDetails", new { id = item.Ndt_MaSach }) |
+                @Html.ActionLink("NdtDelete", "NdtDelete", new { id = item.Ndt_MaSach })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NDT_SACH">
+    <Key>
+      <PropertyRef Name="Ndt_MaSach" />
+    </Key>
+    <Property Name="Ndt_MaSach" Type="Int32" Nullable="false" />
+    <Property Name="Ndt_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ndt_SoTrang" Type="Int32" />
+    <Property Name="Ndt_NamXB" Type="Int32" />
+    <Property Name="Ndt_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Ndt_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="NDT_TACGIA" Relationship="Self.FK_NDT_SACH_NDT_TACGIA" FromRole="NDT_SACH" ToRole="NDT_TACGIA" />
+  </EntityType>
+  <EntityType Name="NDT_TACGIA">
+    <Key>
+      <PropertyRef Name="Ndt_MaTG" />
+    </Key>
+    <Property Name="Ndt_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Ndt_TenTacGia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NDT_SACH" Relationship="Self.FK_NDT_SACH_NDT_TACGIA" FromRole="NDT_TACGIA" ToRole="NDT_SACH" />
+  </EntityType>
+  <Association Name="FK_NDT_SACH_NDT_TACGIA">
+    <End Role="NDT_TACGIA" Type="Self.NDT_TACGIA" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="NDT_SACH" Type="Self.NDT_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NDT_TACGIA">
+        <PropertyRef Name="Ndt_MaTG" />
+      </Principal>
+      <Dependent Role="NDT_SACH">
+        <PropertyRef Name="Ndt_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Nguyễn_Danh_Trường__2210900071Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NDT_SACH" EntityType="Self.NDT_SACH" />
+    <EntitySet Name="NDT_TACGIA" EntityType="Self.NDT_TACGIA" />
+    <AssociationSet Name="FK_NDT_SACH_NDT_TACGIA" Association="Self.FK_NDT_SACH_NDT_TACGIA">
+      <End Role="NDT_TACGIA" EntitySet="NDT_TACGIA" />
+      <End Role="NDT_SACH" EntitySet="NDT_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NguyenDanhTruong_2210900071.Models.NDT_TACGIA>
+
+@{
+    ViewBag.Title = "Tác Giả";
+    Layout = "~/Views/Shared/_NdtLayout.cshtml";
+}
+
+<h2>Tác Giả</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "NdtCreate")*@
+    <a href="/NDT_TACGIA/NdtCreate" class="btn btn-primary my-1">thêm mới </a>
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ndt_TenTacGia)
+        </th>
+        <th>Chức Năng</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ndt_TenTacGia)
+            </td>
+            <td>
+                @Html.ActionLink("NdtEdit", "NdtEdit", new { id = item.Ndt_MaTG }) |
+                @Html.ActionLink("NdtDetails", "NdtDetails", new { id = item.Ndt_MaTG }) |
+                @Html.ActionLink("NdtDelete", "NdtDelete", new { id = item.Ndt_MaTG })
+            </td>
+        </tr>
+    }
+
+</table>

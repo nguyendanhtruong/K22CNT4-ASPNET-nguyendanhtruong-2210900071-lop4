@@ -1,0 +1,27 @@
+﻿@model NguyenDanhTruong_2210900071.Models.NDT_TACGIA
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NdtLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NDT_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ndt_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ndt_TenTacGia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NdtEdit", "NdtEdit", new { id = Model.Ndt_MaTG }) |
+    @Html.ActionLink("Back to List", "NdtIndex")
+</p>

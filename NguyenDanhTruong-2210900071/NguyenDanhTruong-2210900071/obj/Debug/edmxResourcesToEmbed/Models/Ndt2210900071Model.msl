@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Nguyễn_Danh_Trường__2210900071Entities">
+    <EntitySetMapping Name="NDT_SACH">
+      <EntityTypeMapping TypeName="Model.NDT_SACH">
+        <MappingFragment StoreEntitySet="NDT_SACH">
+          <ScalarProperty Name="Ndt_MaSach" ColumnName="Ndt_MaSach" />
+          <ScalarProperty Name="Ndt_TenSach" ColumnName="Ndt_TenSach" />
+          <ScalarProperty Name="Ndt_SoTrang" ColumnName="Ndt_SoTrang" />
+          <ScalarProperty Name="Ndt_NamXB" ColumnName="Ndt_NamXB" />
+          <ScalarProperty Name="Ndt_MaTG" ColumnName="Ndt_MaTG" />
+          <ScalarProperty Name="Ndt_TrangThai" ColumnName="Ndt_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NDT_TACGIA">
+      <EntityTypeMapping TypeName="Model.NDT_TACGIA">
+        <MappingFragment StoreEntitySet="NDT_TACGIA">
+          <ScalarProperty Name="Ndt_MaTG" ColumnName="Ndt_MaTG" />
+          <ScalarProperty Name="Ndt_TenTacGia" ColumnName="Ndt_TenTacGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
